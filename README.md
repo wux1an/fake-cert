@@ -39,7 +39,7 @@ func main() {
 		writer.Write([]byte("Your IP Address: " + request.RemoteAddr))
 	})
 
-	// 1. create tls certification
+	// 1. create tls certificate
 	certs := cert.Random(2048)
 	listener, _ := tls.Listen("tcp", "127.0.0.1:2023", &tls.Config{Certificates: []tls.Certificate{certs}})
 
