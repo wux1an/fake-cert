@@ -9,8 +9,12 @@ Generate a random tls certificate with:
 - [x] random serial number
 - [x] random subject information
 - [x] random validity, the year, the month and the day are random
-- [ ] random encryption suite (to avoid [ja3](https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967/) detect)
-- [ ] copy certificate information from certain website (to avoid [ja3](https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967/) detect)
+- [ ] random encryption suite (defence [ja3](https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967/))
+- [ ] copy certificate information from certain website (defence [ja3](https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967/))
+
+**Preview:**  
+
+<img src="static/random-cert.png" height="500"/> 
 
 ## 🎨 Usage
 
